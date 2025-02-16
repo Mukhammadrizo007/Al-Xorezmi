@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-orange-200">
+    <header class="py-[20px]">
+      <div class="container mx-auto px-[100px]">
+        <div class="header-parent flex items-center justify-between">
+          <div class="header-left">
+            <h1 class="text-[34px]"><strong>Al-Xorezmi</strong></h1>
+          </div>
+          <div class="header-right flex gap-8">
+            <a class="hover:text-red-500" href="./index.html">Домой</a>
+            <a class="hover:text-red-500" href="./,biography.html">Биография</a>
+            <a class="hover:text-red-500" href="./matematika.html"
+              >Математика</a
+            >
+            <a class="hover:text-red-500" href="./igra.html">Игра</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="container mx-auto px-[100px]">
+        <div class="parent">
+          <h1 class="text-[25px]">В каком году родился Ал-Хорезми?</h1>
+          <input
+            class="w-[250px] h-[50px]"
+            id="dr"
+            type="text"
+            placeholder=" слово!"
+          />
+          <button class="bg-yellow-500 w-180px h-[50px]" onclick="sirliSoz()">
+            Проверить!
+          </button>
+          <p id="message"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
